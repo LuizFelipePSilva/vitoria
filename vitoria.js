@@ -37,7 +37,7 @@ function apagar() {
 // Galeria de Fotos
 function criarGaleria() {
   const faixa = document.querySelector(".faixa-galeria");
-  const fotosDuplicadas = [...fotos, ...fotos];
+  const fotosDuplicadas = [...fotos, ...fotos, ...fotos, ...fotos];
 
   fotosDuplicadas.forEach((foto) => {
     const img = document.createElement("img");
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(() => {
     document.querySelector(".animacao-entrada").remove();
-  }, 2000);
+  }, 5000);
 });
 
 function gerarPoema() {
