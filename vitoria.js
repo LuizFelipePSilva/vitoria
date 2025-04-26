@@ -1,5 +1,5 @@
 // Array de fotos (adicione seus caminhos de imagem)
-const fotos = ["foto1.jpg", "foto2.jpg", "foto3.jpg"];
+const fotos = ["foto1.jpg", "foto2.jpg", "foto3.jpg", "foto4.jpeg"];
 
 // Efeito de Digitação Melhorado
 const textos = [
